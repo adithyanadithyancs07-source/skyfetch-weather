@@ -1,3 +1,4 @@
+// Weather Dashboard using OpenWeatherMap API
 const apiKey = "002244641d0b086a2d87ea3704c3addf";
 const city = "London";
 
@@ -19,4 +20,5 @@ axios.get(url)
 })
 .catch(function(error) {
     console.log("Error fetching weather:", error);
+
 });
